@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5a65b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #f5a65b;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+}
+
+.basliq {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+
+}
+
+.a {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.input {
+
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+.btn {
+    background-color: #f5a65b;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 20px;
+    width: 50%;
+    position: relative;
+}
+.h3{
+    color: #ffcf9d;
+    font-size: 14px;
+}
+p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0;
+}
+.icons{
+    position: absolute;
+   gap: 15px;
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;
+    bottom: 20px;
+    
+}
+a{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
